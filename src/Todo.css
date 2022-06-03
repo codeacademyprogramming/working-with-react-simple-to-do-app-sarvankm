@@ -1,4 +1,13 @@
 .custom-input:focus {
-    outline: none !important;
-    box-shadow: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+.list-group-item {
+  padding-left: 13px !important;
+  position: relative;
+}
+.list-group-item p {
+  display: inline;
+  position: absolute;
+  right: 20px;
 }
